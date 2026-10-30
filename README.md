@@ -1,22 +1,33 @@
-# Ayrton Genovesi
+<p align="center"><img src="assets/banner.svg" alt="Ayrton Genovesi — I build with AI and make sure it works" width="100%"></p>
 
-AI Automation Engineer Jr focused on n8n, LLMs, APIs, Telegram bots, Google Sheets automations, and workflow systems for small businesses.
+I build automations and software with AI, and I make sure they work for the people who use them: installed, tested with real users, supported and documented.
 
-I build practical automations that reduce manual work: lead response, document processing, follow-up sequences, database reactivation, internal reporting, and membership systems.
+> **En español:** soy Ayrton, de Rosario. Construyo automatizaciones y software con IA y me ocupo de que funcionen para quien los usa. Técnico Universitario en Programación (UTN). Antes de programar fui encargado de producción en una cervecería y atendí público, y eso me enseñó a entender el problema antes de elegir la herramienta.
 
-## Featured Work
+## Work
 
-- [Telegram Membership Bot](https://github.com/ayrtongenovesi/telegram-membership-bot) - production n8n + Gemini bot for a paid Telegram channel.
-- [Speed to Lead Automation](https://github.com/ayrtongenovesi/speed-to-lead-automation) - instant lead response and qualification workflow.
-- [Document Processing Automation](https://github.com/ayrtongenovesi/document-processing-automation) - structured extraction and validation pipeline for business documents.
-- [Follow-up Sequences Automation](https://github.com/ayrtongenovesi/follow-up-sequences-automation) - lead nurturing workflow with stop rules.
-- [Database Reactivation Automation](https://github.com/ayrtongenovesi/database-reactivation-automation) - safe reactivation workflow for stale CRM contacts.
-- [Internal Reporting Automation](https://github.com/ayrtongenovesi/internal-reporting-automation) - daily reporting workflow for small teams.
+Numbered in the order I built them.
+
+| # | Project | What it is | Status |
+|---|---|---|---|
+| 01 | [Maintenance System](https://github.com/ayrtongenovesi/maintenance-management-system) | Work orders for building maintenance, from request to PDF report. Angular + Express + MySQL. | UTN final project, 2026 |
+| 02 | [Membership Bot](https://github.com/ayrtongenovesi/telegram-membership-bot) | A paid Telegram channel that runs itself: invites, AI FAQ, trials, removals. n8n + Gemini. | Delivered to a client, 2026 |
+| 03 | ISITRANS | A Windows app that connects to driving simulators and writes a report per student for the instructor. | Shipped and in use, 2026 · case study coming |
+| 04 | [Inbound Triage](https://github.com/ayrtongenovesi/inbound-triage) | Every incoming message classified with AI, stored and routed to the right person. n8n + Gemini + MySQL. | Building in public |
+
+## How I work
+
+1. **Spec first.** I write down what it has to do and how we'll know it works.
+2. **AI builds.** Claude Code, Codex and n8n do most of the typing.
+3. **I verify.** Tests, real messages, real users. Nothing is done until it works for the person who'll use it.
+4. **I stay.** Install, support, document.
 
 ## Stack
 
-n8n - JavaScript - TypeScript - Node.js - Telegram Bot API - Google Sheets API - Gemini/OpenAI APIs - Webhooks - GitHub - Vercel - Railway
+n8n · Node.js · JavaScript · REST APIs · SQL (MySQL) · LLM APIs (Gemini, OpenAI) · Angular · Git · Postman
 
-## Currently
+## Contact
 
-Building a portfolio of AI automation workflows and looking for remote junior roles in AI Automation, Workflow Automation, n8n Development, or Automation Engineering.
+Rosario, Argentina · Spanish and English · [LinkedIn](https://www.linkedin.com/in/ayrton-genovesi-148b8b248/)
+
+<sub>The banners in my repos come from a small script: <a href="tools/banner.py"><code>tools/banner.py</code></a>.</sub>
